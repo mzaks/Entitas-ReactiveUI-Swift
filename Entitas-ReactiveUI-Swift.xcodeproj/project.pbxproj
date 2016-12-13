@@ -12,7 +12,35 @@
 		0B0985711DF76DFD00E00A06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B09856F1DF76DFD00E00A06 /* Main.storyboard */; };
 		0B0985731DF76DFD00E00A06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B0985721DF76DFD00E00A06 /* Assets.xcassets */; };
 		0B0985761DF76DFD00E00A06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B0985741DF76DFD00E00A06 /* LaunchScreen.storyboard */; };
-		0B0985811DF76DFD00E00A06 /* Entitas_ReactiveUI_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0985801DF76DFD00E00A06 /* Entitas_ReactiveUI_SwiftTests.swift */; };
+		0B09859B1DF7708F00E00A06 /* AllComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B09859A1DF7708F00E00A06 /* AllComponents.swift */; };
+		0B09859F1DF8AF9800E00A06 /* AllSystems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B09859E1DF8AF9800E00A06 /* AllSystems.swift */; };
+		0B0985A11DF96B4B00E00A06 /* TickSystemTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0985A01DF96B4B00E00A06 /* TickSystemTest.swift */; };
+		0B0985A31DF97BE300E00A06 /* ElixirProduceSystemTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0985A21DF97BE300E00A06 /* ElixirProduceSystemTest.swift */; };
+		0B0985A51DF9828A00E00A06 /* ElixirConsumeSystemTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0985A41DF9828A00E00A06 /* ElixirConsumeSystemTest.swift */; };
+		0B0985A71DF98E1A00E00A06 /* ElixirConsumePersistSystemTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0985A61DF98E1A00E00A06 /* ElixirConsumePersistSystemTest.swift */; };
+		0B0985A91DF9BD4500E00A06 /* EconomySystemChainTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0985A81DF9BD4500E00A06 /* EconomySystemChainTest.swift */; };
+		0B0985AB1DF9C68800E00A06 /* ReplaySystemTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0985AA1DF9C68800E00A06 /* ReplaySystemTest.swift */; };
+		0B0985AD1DF9D27000E00A06 /* CleanupConsumtionHistorySystemTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0985AC1DF9D27000E00A06 /* CleanupConsumtionHistorySystemTest.swift */; };
+		0B0985AF1DF9DD5B00E00A06 /* NotifyTickListenersSystemTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0985AE1DF9DD5B00E00A06 /* NotifyTickListenersSystemTest.swift */; };
+		0B0985B11DF9EB4300E00A06 /* NotifyPauseListenersSystemTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0985B01DF9EB4300E00A06 /* NotifyPauseListenersSystemTest.swift */; };
+		0B0985B31DF9ECCE00E00A06 /* NotifyElixirListenersSystemTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0985B21DF9ECCE00E00A06 /* NotifyElixirListenersSystemTest.swift */; };
+		0B0985BE1DFA0F5300E00A06 /* Entitas.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B0985BC1DFA0F5300E00A06 /* Entitas.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B0985C11DFA0F5300E00A06 /* Entitas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B0985BA1DFA0F5300E00A06 /* Entitas.framework */; };
+		0B0985C21DFA0F5300E00A06 /* Entitas.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0B0985BA1DFA0F5300E00A06 /* Entitas.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0B0985D01DFA2D1800E00A06 /* ViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0985CF1DFA2D1800E00A06 /* ViewControllerTest.swift */; };
+		0BD1C04B1DFCC937003720FA /* CustomControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD1C04A1DFCC937003720FA /* CustomControllers.swift */; };
+		0BD1C04D1DFD5369003720FA /* TimeLabelControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD1C04C1DFD5369003720FA /* TimeLabelControllerTest.swift */; };
+		0BD1C04F1DFD553E003720FA /* TimeSliderControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD1C04E1DFD553E003720FA /* TimeSliderControllerTest.swift */; };
+		0BD1C0511DFD567F003720FA /* ElixirAmountRepresentationControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD1C0501DFD567F003720FA /* ElixirAmountRepresentationControllerTest.swift */; };
+		0BD1C0531DFD58BC003720FA /* PauseButtonControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD1C0521DFD58BC003720FA /* PauseButtonControllerTest.swift */; };
+		0BD1C0551DFD5AA6003720FA /* ConsumeButtonControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD1C0541DFD5AA6003720FA /* ConsumeButtonControllerTest.swift */; };
+		0BD1C05E1DFD5D84003720FA /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD1C0571DFD5D84003720FA /* Context.swift */; };
+		0BD1C05F1DFD5D84003720FA /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD1C0581DFD5D84003720FA /* Entity.swift */; };
+		0BD1C0601DFD5D84003720FA /* UniqueEntityExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD1C0591DFD5D84003720FA /* UniqueEntityExtensions.swift */; };
+		0BD1C0621DFD5D84003720FA /* Matcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD1C05B1DFD5D84003720FA /* Matcher.swift */; };
+		0BD1C0631DFD5D84003720FA /* Collector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD1C05C1DFD5D84003720FA /* Collector.swift */; };
+		0BD1C0641DFD5D84003720FA /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD1C05D1DFD5D84003720FA /* Group.swift */; };
+		0BD1C0661DFD5DCA003720FA /* System.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD1C0651DFD5DCA003720FA /* System.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +51,28 @@
 			remoteGlobalIDString = 0B0985671DF76DFD00E00A06;
 			remoteInfo = "Entitas-ReactiveUI-Swift";
 		};
+		0B0985BF1DFA0F5300E00A06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B0985601DF76DFD00E00A06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B0985B91DFA0F5300E00A06;
+			remoteInfo = Entitas;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0B0985C61DFA0F5300E00A06 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0B0985C21DFA0F5300E00A06 /* Entitas.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0B0985681DF76DFD00E00A06 /* Entitas-ReactiveUI-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Entitas-ReactiveUI-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -34,8 +83,36 @@
 		0B0985751DF76DFD00E00A06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B0985771DF76DFD00E00A06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B09857C1DF76DFD00E00A06 /* Entitas-ReactiveUI-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Entitas-ReactiveUI-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B0985801DF76DFD00E00A06 /* Entitas_ReactiveUI_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entitas_ReactiveUI_SwiftTests.swift; sourceTree = "<group>"; };
 		0B0985821DF76DFD00E00A06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B09859A1DF7708F00E00A06 /* AllComponents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllComponents.swift; sourceTree = "<group>"; };
+		0B09859E1DF8AF9800E00A06 /* AllSystems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllSystems.swift; sourceTree = "<group>"; };
+		0B0985A01DF96B4B00E00A06 /* TickSystemTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TickSystemTest.swift; sourceTree = "<group>"; };
+		0B0985A21DF97BE300E00A06 /* ElixirProduceSystemTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElixirProduceSystemTest.swift; sourceTree = "<group>"; };
+		0B0985A41DF9828A00E00A06 /* ElixirConsumeSystemTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElixirConsumeSystemTest.swift; sourceTree = "<group>"; };
+		0B0985A61DF98E1A00E00A06 /* ElixirConsumePersistSystemTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElixirConsumePersistSystemTest.swift; sourceTree = "<group>"; };
+		0B0985A81DF9BD4500E00A06 /* EconomySystemChainTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EconomySystemChainTest.swift; sourceTree = "<group>"; };
+		0B0985AA1DF9C68800E00A06 /* ReplaySystemTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReplaySystemTest.swift; sourceTree = "<group>"; };
+		0B0985AC1DF9D27000E00A06 /* CleanupConsumtionHistorySystemTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CleanupConsumtionHistorySystemTest.swift; sourceTree = "<group>"; };
+		0B0985AE1DF9DD5B00E00A06 /* NotifyTickListenersSystemTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotifyTickListenersSystemTest.swift; sourceTree = "<group>"; };
+		0B0985B01DF9EB4300E00A06 /* NotifyPauseListenersSystemTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotifyPauseListenersSystemTest.swift; sourceTree = "<group>"; };
+		0B0985B21DF9ECCE00E00A06 /* NotifyElixirListenersSystemTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotifyElixirListenersSystemTest.swift; sourceTree = "<group>"; };
+		0B0985BA1DFA0F5300E00A06 /* Entitas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Entitas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B0985BC1DFA0F5300E00A06 /* Entitas.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Entitas.h; sourceTree = "<group>"; };
+		0B0985BD1DFA0F5300E00A06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B0985CF1DFA2D1800E00A06 /* ViewControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTest.swift; sourceTree = "<group>"; };
+		0BD1C04A1DFCC937003720FA /* CustomControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomControllers.swift; sourceTree = "<group>"; };
+		0BD1C04C1DFD5369003720FA /* TimeLabelControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeLabelControllerTest.swift; sourceTree = "<group>"; };
+		0BD1C04E1DFD553E003720FA /* TimeSliderControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeSliderControllerTest.swift; sourceTree = "<group>"; };
+		0BD1C0501DFD567F003720FA /* ElixirAmountRepresentationControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElixirAmountRepresentationControllerTest.swift; sourceTree = "<group>"; };
+		0BD1C0521DFD58BC003720FA /* PauseButtonControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PauseButtonControllerTest.swift; sourceTree = "<group>"; };
+		0BD1C0541DFD5AA6003720FA /* ConsumeButtonControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsumeButtonControllerTest.swift; sourceTree = "<group>"; };
+		0BD1C0571DFD5D84003720FA /* Context.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
+		0BD1C0581DFD5D84003720FA /* Entity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		0BD1C0591DFD5D84003720FA /* UniqueEntityExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniqueEntityExtensions.swift; sourceTree = "<group>"; };
+		0BD1C05B1DFD5D84003720FA /* Matcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Matcher.swift; sourceTree = "<group>"; };
+		0BD1C05C1DFD5D84003720FA /* Collector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Collector.swift; sourceTree = "<group>"; };
+		0BD1C05D1DFD5D84003720FA /* Group.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		0BD1C0651DFD5DCA003720FA /* System.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = System.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,10 +120,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B0985C11DFA0F5300E00A06 /* Entitas.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0B0985791DF76DFD00E00A06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B0985B61DFA0F5300E00A06 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -61,6 +146,7 @@
 			children = (
 				0B09856A1DF76DFD00E00A06 /* Entitas-ReactiveUI-Swift */,
 				0B09857F1DF76DFD00E00A06 /* Entitas-ReactiveUI-SwiftTests */,
+				0B0985BB1DFA0F5300E00A06 /* Entitas */,
 				0B0985691DF76DFD00E00A06 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +156,7 @@
 			children = (
 				0B0985681DF76DFD00E00A06 /* Entitas-ReactiveUI-Swift.app */,
 				0B09857C1DF76DFD00E00A06 /* Entitas-ReactiveUI-SwiftTests.xctest */,
+				0B0985BA1DFA0F5300E00A06 /* Entitas.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,6 +166,9 @@
 			children = (
 				0B09856B1DF76DFD00E00A06 /* AppDelegate.swift */,
 				0B09856D1DF76DFD00E00A06 /* ViewController.swift */,
+				0B09859A1DF7708F00E00A06 /* AllComponents.swift */,
+				0B09859E1DF8AF9800E00A06 /* AllSystems.swift */,
+				0BD1C04A1DFCC937003720FA /* CustomControllers.swift */,
 				0B09856F1DF76DFD00E00A06 /* Main.storyboard */,
 				0B0985721DF76DFD00E00A06 /* Assets.xcassets */,
 				0B0985741DF76DFD00E00A06 /* LaunchScreen.storyboard */,
@@ -90,13 +180,71 @@
 		0B09857F1DF76DFD00E00A06 /* Entitas-ReactiveUI-SwiftTests */ = {
 			isa = PBXGroup;
 			children = (
-				0B0985801DF76DFD00E00A06 /* Entitas_ReactiveUI_SwiftTests.swift */,
 				0B0985821DF76DFD00E00A06 /* Info.plist */,
+				0B0985B41DF9EDB800E00A06 /* SystemTests */,
+				0BD1C0561DFD5CAC003720FA /* ControllerTests */,
 			);
 			path = "Entitas-ReactiveUI-SwiftTests";
 			sourceTree = "<group>";
 		};
+		0B0985B41DF9EDB800E00A06 /* SystemTests */ = {
+			isa = PBXGroup;
+			children = (
+				0B0985A01DF96B4B00E00A06 /* TickSystemTest.swift */,
+				0B0985A21DF97BE300E00A06 /* ElixirProduceSystemTest.swift */,
+				0B0985A41DF9828A00E00A06 /* ElixirConsumeSystemTest.swift */,
+				0B0985A61DF98E1A00E00A06 /* ElixirConsumePersistSystemTest.swift */,
+				0B0985A81DF9BD4500E00A06 /* EconomySystemChainTest.swift */,
+				0B0985AA1DF9C68800E00A06 /* ReplaySystemTest.swift */,
+				0B0985AC1DF9D27000E00A06 /* CleanupConsumtionHistorySystemTest.swift */,
+				0B0985AE1DF9DD5B00E00A06 /* NotifyTickListenersSystemTest.swift */,
+				0B0985B01DF9EB4300E00A06 /* NotifyPauseListenersSystemTest.swift */,
+				0B0985B21DF9ECCE00E00A06 /* NotifyElixirListenersSystemTest.swift */,
+			);
+			name = SystemTests;
+			sourceTree = "<group>";
+		};
+		0B0985BB1DFA0F5300E00A06 /* Entitas */ = {
+			isa = PBXGroup;
+			children = (
+				0BD1C0651DFD5DCA003720FA /* System.swift */,
+				0BD1C0571DFD5D84003720FA /* Context.swift */,
+				0BD1C0581DFD5D84003720FA /* Entity.swift */,
+				0BD1C0591DFD5D84003720FA /* UniqueEntityExtensions.swift */,
+				0BD1C05B1DFD5D84003720FA /* Matcher.swift */,
+				0BD1C05C1DFD5D84003720FA /* Collector.swift */,
+				0BD1C05D1DFD5D84003720FA /* Group.swift */,
+				0B0985BC1DFA0F5300E00A06 /* Entitas.h */,
+				0B0985BD1DFA0F5300E00A06 /* Info.plist */,
+			);
+			path = Entitas;
+			sourceTree = "<group>";
+		};
+		0BD1C0561DFD5CAC003720FA /* ControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				0B0985CF1DFA2D1800E00A06 /* ViewControllerTest.swift */,
+				0BD1C04C1DFD5369003720FA /* TimeLabelControllerTest.swift */,
+				0BD1C04E1DFD553E003720FA /* TimeSliderControllerTest.swift */,
+				0BD1C0501DFD567F003720FA /* ElixirAmountRepresentationControllerTest.swift */,
+				0BD1C0521DFD58BC003720FA /* PauseButtonControllerTest.swift */,
+				0BD1C0541DFD5AA6003720FA /* ConsumeButtonControllerTest.swift */,
+			);
+			name = ControllerTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0B0985B71DFA0F5300E00A06 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B0985BE1DFA0F5300E00A06 /* Entitas.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		0B0985671DF76DFD00E00A06 /* Entitas-ReactiveUI-Swift */ = {
@@ -106,10 +254,12 @@
 				0B0985641DF76DFD00E00A06 /* Sources */,
 				0B0985651DF76DFD00E00A06 /* Frameworks */,
 				0B0985661DF76DFD00E00A06 /* Resources */,
+				0B0985C61DFA0F5300E00A06 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0B0985C01DFA0F5300E00A06 /* PBXTargetDependency */,
 			);
 			name = "Entitas-ReactiveUI-Swift";
 			productName = "Entitas-ReactiveUI-Swift";
@@ -134,6 +284,24 @@
 			productReference = 0B09857C1DF76DFD00E00A06 /* Entitas-ReactiveUI-SwiftTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		0B0985B91DFA0F5300E00A06 /* Entitas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B0985C31DFA0F5300E00A06 /* Build configuration list for PBXNativeTarget "Entitas" */;
+			buildPhases = (
+				0B0985B51DFA0F5300E00A06 /* Sources */,
+				0B0985B61DFA0F5300E00A06 /* Frameworks */,
+				0B0985B71DFA0F5300E00A06 /* Headers */,
+				0B0985B81DFA0F5300E00A06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Entitas;
+			productName = Entitas;
+			productReference = 0B0985BA1DFA0F5300E00A06 /* Entitas.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -155,6 +323,12 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 0B0985671DF76DFD00E00A06;
 					};
+					0B0985B91DFA0F5300E00A06 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = TK59L26FS4;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 0B0985631DF76DFD00E00A06 /* Build configuration list for PBXProject "Entitas-ReactiveUI-Swift" */;
@@ -172,6 +346,7 @@
 			targets = (
 				0B0985671DF76DFD00E00A06 /* Entitas-ReactiveUI-Swift */,
 				0B09857B1DF76DFD00E00A06 /* Entitas-ReactiveUI-SwiftTests */,
+				0B0985B91DFA0F5300E00A06 /* Entitas */,
 			);
 		};
 /* End PBXProject section */
@@ -194,6 +369,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0B0985B81DFA0F5300E00A06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -201,8 +383,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B09859F1DF8AF9800E00A06 /* AllSystems.swift in Sources */,
 				0B09856E1DF76DFD00E00A06 /* ViewController.swift in Sources */,
 				0B09856C1DF76DFD00E00A06 /* AppDelegate.swift in Sources */,
+				0B09859B1DF7708F00E00A06 /* AllComponents.swift in Sources */,
+				0BD1C04B1DFCC937003720FA /* CustomControllers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,7 +395,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B0985811DF76DFD00E00A06 /* Entitas_ReactiveUI_SwiftTests.swift in Sources */,
+				0B0985AF1DF9DD5B00E00A06 /* NotifyTickListenersSystemTest.swift in Sources */,
+				0B0985A51DF9828A00E00A06 /* ElixirConsumeSystemTest.swift in Sources */,
+				0BD1C0551DFD5AA6003720FA /* ConsumeButtonControllerTest.swift in Sources */,
+				0B0985B31DF9ECCE00E00A06 /* NotifyElixirListenersSystemTest.swift in Sources */,
+				0BD1C0511DFD567F003720FA /* ElixirAmountRepresentationControllerTest.swift in Sources */,
+				0BD1C04D1DFD5369003720FA /* TimeLabelControllerTest.swift in Sources */,
+				0B0985B11DF9EB4300E00A06 /* NotifyPauseListenersSystemTest.swift in Sources */,
+				0B0985A31DF97BE300E00A06 /* ElixirProduceSystemTest.swift in Sources */,
+				0B0985A11DF96B4B00E00A06 /* TickSystemTest.swift in Sources */,
+				0B0985AD1DF9D27000E00A06 /* CleanupConsumtionHistorySystemTest.swift in Sources */,
+				0BD1C04F1DFD553E003720FA /* TimeSliderControllerTest.swift in Sources */,
+				0B0985A71DF98E1A00E00A06 /* ElixirConsumePersistSystemTest.swift in Sources */,
+				0B0985A91DF9BD4500E00A06 /* EconomySystemChainTest.swift in Sources */,
+				0B0985AB1DF9C68800E00A06 /* ReplaySystemTest.swift in Sources */,
+				0B0985D01DFA2D1800E00A06 /* ViewControllerTest.swift in Sources */,
+				0BD1C0531DFD58BC003720FA /* PauseButtonControllerTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B0985B51DFA0F5300E00A06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BD1C0641DFD5D84003720FA /* Group.swift in Sources */,
+				0BD1C05F1DFD5D84003720FA /* Entity.swift in Sources */,
+				0BD1C05E1DFD5D84003720FA /* Context.swift in Sources */,
+				0BD1C0661DFD5DCA003720FA /* System.swift in Sources */,
+				0BD1C0621DFD5D84003720FA /* Matcher.swift in Sources */,
+				0BD1C0601DFD5D84003720FA /* UniqueEntityExtensions.swift in Sources */,
+				0BD1C0631DFD5D84003720FA /* Collector.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +435,11 @@
 			isa = PBXTargetDependency;
 			target = 0B0985671DF76DFD00E00A06 /* Entitas-ReactiveUI-Swift */;
 			targetProxy = 0B09857D1DF76DFD00E00A06 /* PBXContainerItemProxy */;
+		};
+		0B0985C01DFA0F5300E00A06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B0985B91DFA0F5300E00A06 /* Entitas */;
+			targetProxy = 0B0985BF1DFA0F5300E00A06 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -338,10 +557,12 @@
 		0B0985861DF76DFD00E00A06 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TK59L26FS4;
 				INFOPLIST_FILE = "Entitas-ReactiveUI-Swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-Xfrontend -warn-long-function-bodies=100";
 				PRODUCT_BUNDLE_IDENTIFIER = "maxim.zaks.Entitas-ReactiveUI-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -351,12 +572,15 @@
 		0B0985871DF76DFD00E00A06 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TK59L26FS4;
 				INFOPLIST_FILE = "Entitas-ReactiveUI-Swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-Xfrontend -warn-long-function-bodies=100";
 				PRODUCT_BUNDLE_IDENTIFIER = "maxim.zaks.Entitas-ReactiveUI-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -391,6 +615,55 @@
 			};
 			name = Release;
 		};
+		0B0985C41DFA0F5300E00A06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = TK59L26FS4;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Entitas/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maxim.zaks.Entitas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0B0985C51DFA0F5300E00A06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = TK59L26FS4;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Entitas/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maxim.zaks.Entitas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -410,6 +683,7 @@
 				0B0985871DF76DFD00E00A06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B0985881DF76DFD00E00A06 /* Build configuration list for PBXNativeTarget "Entitas-ReactiveUI-SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +692,16 @@
 				0B09858A1DF76DFD00E00A06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B0985C31DFA0F5300E00A06 /* Build configuration list for PBXNativeTarget "Entitas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B0985C41DFA0F5300E00A06 /* Debug */,
+				0B0985C51DFA0F5300E00A06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
